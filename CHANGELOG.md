@@ -4,6 +4,10 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## 2.1.6 - 2024-01-03
+### Fixed
+- Fixed "Array and string offset access syntax with curly braces is no longer supported" error, with update to latest PHP_XLSXWriter build
+
 ## 2.1.5 - 2020-01-27
 ### Added
 - Added BOM sequence to improve interoperability with programs interacting with CSV, like Microsoft Excel. ([#13](https://github.com/sjelfull/craft3-beam/pull/13))
